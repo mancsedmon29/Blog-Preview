@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray: hsl(0, 0%, 42%);
+    --Black: hsl(0, 0%, 7%);
+    --fonts: 'Figtree', sans-serif;
+    --fs-main: 16px;
+    --fw-600: 600;
+    --fw-800: 800;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonts);
+    background-color: var(--Yellow);
+    font-weight: var(--fw-600);
+    color: var(--Gray500);
+}
+
+h1 {
+    line-height: 1.1;
+    color: var(--Black);
+    font-weight: var(--fw-800);
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: color .3s ease;
+}
+
+h1:hover {
+    color: var(--Yellow);
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: var(--White);
+    padding: 1.5rem;
+    max-width: 333px;
+    border-radius: 1rem;
+    box-shadow: 6px 6px 0 var(--Black);
+    transition: box-shadow .3s ease;
+    /* positioning */
+    margin: 0 1rem;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 0 var(--Black);
+}
+
+.card img {
+    border-radius: .8rem;
+    margin-bottom: 0;
+}
+
+.card > * + * {
+    margin-top: .5rem;
+}
+
+
+
+.content p {
+    color: var(--Gray);
+}
+
+.category {
+    display: inline-block;
+    background-color: var(--Yellow);
+    padding: .5rem .8rem;
+    font-weight: var(--fw-800);
+    color: var(--Black) !important;
+    border-radius: .3rem;
+}
+
+.meta {
+    margin-top: 0;
+    font-size: 14px;
+    color: var(--Black);
+}
+
+.author {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.author img {
+    width: 3rem;
+}
+
+.author .author-name {
+    color: var(--Black);
+    font-size: 14px;
+    font-weight: var(--fw-800);
+}
+/* .card:hover {
+
+} */
