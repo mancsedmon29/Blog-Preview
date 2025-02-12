@@ -24,8 +24,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [On my Github](https://github.com/mancsedmon29/QR-Code-Component)
-- Live Site URL: [QR Code Component](https://mancsedmon29.github.io/QR-Code-Component/)
+- Solution URL: [On my Github](https://github.com/mancsedmon29/Blog-Preview)
+- Live Site URL: [QR Code Component]()
 
 ## My process
 
